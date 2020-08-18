@@ -15,9 +15,9 @@ Activate the conda environment with:
 ## Collecting OHLCV Data
 If you'd like to play around with generating the data, follow these steps:
   1. `$ touch api_key.py`
-  2. Add APCA_API_KEY_ID and APCA_API_SECRET_KEY to your api_key.py file.
+  2. Add APCA_API_KEY_ID and APCA_API_SECRET_KEY to your `api_key.py` file.
   
-      1. You have to get your own API keys from Alpaca. api_key.py has already been added to the .gitignore file. This is important because you should not be sharing your API keys with anyone.
+      1. You have to get your own API keys from Alpaca. `api_key.py` has already been added to the `.gitignore` file. This is important because you should not be sharing your API keys with anyone.
       2. An example of what this file should look like is given below:
   
     APCA_API_KEY_ID = 'XXXXXXXXXXXXXXXXXXXX'
