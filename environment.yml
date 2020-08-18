@@ -1,0 +1,45 @@
+name: alpaca
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - blas=1.0=mkl
+  - ca-certificates=2020.6.20=hecda079_0
+  - certifi=2020.6.20=py38h32f6830_0
+  - libcxx=10.0.0=1
+  - libedit=3.1.20191231=h1de35cc_1
+  - libffi=3.3=hb1e8313_2
+  - libgfortran=3.0.1=0
+  - llvm-openmp=10.0.1=h28b9765_0
+  - mkl=2019.5=281
+  - mkl-service=2.3.0=py38h0b31af3_0
+  - mkl_fft=1.1.0=py38h3b54f70_1
+  - mkl_random=1.1.1=py38h959d312_0
+  - ncurses=6.2=h0a44026_1
+  - numpy=1.19.1=py38h3b9f5b6_0
+  - numpy-base=1.19.1=py38hcfb5961_0
+  - openssl=1.1.1g=h0b31af3_1
+  - pip=20.1.1=py38_1
+  - python=3.8.5=h26836e1_0
+  - python_abi=3.8=1_cp38
+  - readline=8.0=h1de35cc_0
+  - scipy=1.5.0=py38hbab996c_0
+  - setuptools=49.2.0=py38_0
+  - six=1.15.0=pyh9f0ad1d_0
+  - sqlite=3.32.3=hffcf06c_0
+  - tk=8.6.10=hb0a8c7a_0
+  - wheel=0.34.2=py38_0
+  - xz=5.2.5=h1de35cc_0
+  - zlib=1.2.11=h1de35cc_3
+  - pip:
+    - alpaca-trade-api==0.49.1
+    - chardet==3.0.4
+    - idna==2.10
+    - pandas==1.1.0
+    - python-dateutil==2.8.1
+    - pytz==2020.1
+    - requests==2.24.0
+    - urllib3==1.25.10
+    - websocket-client==0.57.0
+    - websockets==8.1
+
