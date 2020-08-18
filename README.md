@@ -35,5 +35,5 @@ If you'd like to play around with generating the data, follow these steps:
 
       1. This program reads the .csv files in the directory `data/`
       2. It accumulates the close data for all those files into one pandas Dataframe and saves it into a file called `my_close_data.csv` in the `accumulated_data/` directory.
-      3. And voila! You can use `my_close_data.csv` to perform stock prediction.
+      3. And voila! You now have `my_close_data.csv`, your data that you can use to perform stock prediction.
       
